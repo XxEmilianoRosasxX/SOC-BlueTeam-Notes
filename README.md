@@ -38,3 +38,11 @@ Kindness
 Active listening
 Loyalty and commitment
 Emotional intelligence
+
+Languages:
+Spanish - Native
+English - B1 (in search of B2)
+
+Courses:
+- Curso: Kali Linux: Hacking Ético desde 0 hasta Avanzado + Prácticas (Udemy May 27, 2025.)
+- Cisco Networking Academy: Introduction to cibersecurity (November 02, 2025) (https://www.credly.com/badges/0ce234ad-5439-489c-8f2a-03305fb44076)
