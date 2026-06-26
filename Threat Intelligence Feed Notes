@@ -1,0 +1,15 @@
+Don´t trust the files so fast!!!
+
++-- If data you run through feeds does not show up --+
+
+Let's say you ran a hash of an .exe in VirusTotal and in the past you didn't find anything suspicious about it. In this case, you should not just assume that the file is clean, that would be a mistake. 
+A SOC analyst should carefully perform the necessary file analysis (static/dynamic).
+
+<-- We shouldn’t forget that IP addresses can change hands. -->
+
+For example, let's say an attacker created a server on AWS (Amazon Web Services) and used it as a command and control center. 
+Then various threat intelligence feeds listed that IP address as a malicious address.
+2 months later, the attacker shut down the server and someone else moved their personal blog to that server. 
+This doesn't mean that people who visited the blog were exposed to malicious content. 
+The fact that this IP address has been used for malicious purposes in the past does not mean that it contains malicious content.
+
