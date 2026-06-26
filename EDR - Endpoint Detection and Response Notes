@@ -1,0 +1,15 @@
+Endpoint Detection and Response (EDR), also known as Endpoint Threat Detection and Response (ETDR), is an integrated endpoint security solution that combines continuous, real-time monitoring and collection of endpoint data with rules-based automated response and analysis capabilities.
+
+** Containment (If hacked)**
+You need to isolate a hacked machine from the network. 
+There are two important reasons for doing this: to prevent the attacker from connecting to the internal network and moving around the internal network.
+
+Therefore, the device should be isolated from the internal and external networks until the vulnerabilities are repaired and the device is ready for use. 
+You can ensure isolation by using the containment feature of EDR solutions. This feature allows the selected device to communicate solely with the EDR center. 
+This means that even though the device is isolated from the network, you can continue your analysis.
+
++-- Quick Tip --+
+If you have any type of IOC, such as a file hash, file name, etc., you can perform a search in EDR across all hosts and see if there is a match. 
+For example, let's say you are certain that a device has been hacked and you have obtained a file with an MD5 hash of "ac596d282e2f9b1501d66fce5a451f00". 
+You can search for this hash value in EDR and determine whether this file exists or is being executed on other devices. 
+This will help you understand who has been affected by this attack.
