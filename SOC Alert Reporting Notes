@@ -1,0 +1,50 @@
+** Report Format **
+
+An example of good, structured report following the 5Ws approach
+
+Imagine yourself as an L2 analyst, a DFIR team member, or an IT professional who needs to understand the alert. 
+What would you want to see in the report? We recommend you follow the Five Ws(opens in new tab) approach and include at least these items in the report:
+
+Who: Which user logs in, runs the command, or downloads the file
+What: What exact action or event sequence was performed
+When: When exactly did the suspicious activity start and ended
+Where: Which device, IP, or website was involved in the alert
+Why: The most important W, the reasoning for your final verdict
+
+You should escalate the alerts to a L2 if:
+
+- The alert is an indicator of a major cyberattack requiring deeper investigation or DFIR
+- Remediation actions like malware removal, host isolation, or password reset are required
+- Communication with customers, partners, management, or law enforcement agencies is required
+- You just do not fully understand the alert and need some help from more senior analysts
+
+No matter what the agreements are, L2 will eventually receive the ticket from you, read your report, and contact you in case of any questions. 
+Once everything is clear, the L2 analyst will typically research the alert details further, validate if the alert is indeed a True Positive, 
+communicate with other departments if needed, and, for major incidents, start a formal Incident Response process.
+
+It is generally fine for L1 to request senior support if something is unclear. 
+Especially in your first months, it's always better to discuss the alert and clarify SOC procedures than to blindly close the alert you don't understand yourself. 
+The procedures for requesting support may differ.
+
+++ SOC Dashboard Escalation ++
+
+Move the alert to In Progress status and do the analysis
+Write an alert report and set your verdict, such as True Positive
+If escalation is required, assign the alert to your L2 on shift
+L2 will receive a notification and start from your alert report
+
+/////////// Communication Cases ////////////
+You need to escalate an urgent, critical alert, but L2 is unavailable and does not respond for 30 minutes.
+Ensure you know where to find emergency contacts. First, try to call L2, then L3, and finally your manager.
+
+The alert about Slack/Teams account compromise requires you to validate the login with the affected user.
+Do not contact the user through the breached chat - use alternative contact methods like a phone call.
+
+You receive an overwhelming number of alerts during a short period of time, some of which are critical.
+Prioritise the alerts according to the workflow, but inform your L2 on shift about the situation.
+
+After a few days, you realise that you misclassified the alert and likely missed a malicious action.
+Immediately reach out to your L2 explaining your concerns. Threat actors can be silent for weeks before impact.
+
+You can not complete the alert triage since the SIEM logs are not parsed correctly or are not searchable.
+Do not skip the alert - investigate what you can and report the issue to your L2 on shift or SOC engineer.
