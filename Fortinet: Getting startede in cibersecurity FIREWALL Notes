@@ -1,0 +1,26 @@
+** Firewalls **
+
+Firewall (stateless) attributes:
+- source adn destination network addresses
+- Protocols
+- Port numbers
+
+Firewall policies
+- Implicits: a policy applied if no other match is found in the firewall policy list
+- Explicits: an explicit firewall policy is created to specify if the traffic is allowed or denied
+
+** Needs additional configuration
+** Aditional firewall policy for return traffic
+** Fail to manage protocols
+** One-size fits all
+
++-- Stateful Firewall --+
+is designed to observe the network connections over time and continuosly examine the traffic going back and forth between end points
+
+// They still cannot block rougue packets if they're using an acceptable protocol such as HTTP
+
++-- Third generation Firewall (UTM-Unified Threat Management)
+
+These firewalls understand the application layer protocols and control different uses of the same basic protocol, and has it's own combined protections like antivirus, antispam, ips, vpn
+
+Next generations Firewalls works like the airport security system
