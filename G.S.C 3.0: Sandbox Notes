@@ -1,0 +1,51 @@
+Sandbox: In the context of computer security, is a system that confines the actions of an application, such as
+opnening a Word document or a browser, within a safe virtual enviroment.
+
+In a sandbox, an application is isolated so that any malicious intent can be uncovered safely, without causing harm to the network.
+whatever happens it will only affect the sandbox
+
+This technology is typically managed by an organization's information security team, but is used by network,
+applications, and desktop operations teams to bolster security in their respective domains.
+
+** Why was Sandbox Technology Created ? **
+
+Threat actors exploit vulnerabilities in legitimate applications in order to compromise a device
+and from there move through the network to infect other devices.
+Firewalls and antivirus software can stop known threats, but they're helpless against zero-day attacks
+
+** ZERO-DAY ATTACK **
+Is when a threat actor exploits an unknown vulnerability, SANDBOX was created as a defense against zero-day attacks.
+
+** How Does Sandboxing Work ? **
+
+- It offers an isolated virtual space that mimics computer systems and applications.
+- It allows potential threats to run safely within these virtual systems and analyzes these threats.
+- If a sandbox deems that a file is safe, it does not take any action; but if it detects malicious behavior,
+  it quarantines the file and prevents it from accessing other computers and devices on the network.
+
+** SANDBOX GENERATIONS **
+
+ ++ 1ST ++
+
+Early sandbox solutions were unable to share threat intelligence with other security devices due to security architecture's
+dependence on standalone solutions
+Standalone solutions could not easily integrate with products from other vendors, forcing the security operations center (SOC)
+to use a separate management console for each one
+Consequently, the process of consolidating and analyzing threat intelligence data was both challenging and time-consuming
+
+++ 2ND ++
+
+- The second-generation sandbox improved integration with other security devices, allowing better threat intelligence sharing.
+- This new approach to network security allowed analysts to correlate threat intelligence centrally and repsond
+  to threats from a single pane of glass.
+- Moreover, an integrated network security enviroment could share information with a threat intelligence service in the cloud
+  wich could then push that intelligence to other networks.
+
+++ 3RD ++
+
+- Threat actors were levering automation and artifitial intelligence methods to accelerate the  development of new security exploits.
+- AI-driven attacks necessitated a third-generation sandbox based on a threat analysis standard
+- Not only helps to detect breaches in a timely manner, they also prevent from happening, these solutions utilize the universal
+  MITRE ATT&CK security language for categorizing threat models and methodologies.
+
+
