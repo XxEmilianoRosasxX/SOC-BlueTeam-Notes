@@ -1,0 +1,61 @@
+NAC is an apliance or virtual machine that control access to a network, it has complete
+visibility into the network profiles and categorizes devices automatically
+
+It evalues and classifies security-policy compliance by user, device, location, operating system, and other criteria
+that may detect unusual activity
+
+Many NAC solutions have centralized architecture that improves the control of devices across large and multi-site networks
+
+<-- NAC began as a network authentication and authorization method for devices joining the network wich follows the
+IEEE 802.1X standards
+
+The auth method involves 3 parties:
+- the client device
+- the authenticator
+- authentication server
+
+The authenticator could be a network switch or wireless access point that demarks the protected network from the unprotected network
+
+The client provides credentials in the form of a user and passwd, digital certificate or some other means eto the
+authenticator, wich fowards these credentials to the server
+
+Depending on the outcome of authentication, the authenticator will either block the device or allow it access to the network
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Another method to control access to a network, especially a publicly available network, is a "captive portal"
+
+
+++ An example ++
+
+You are in a coffe shop, and you connect to the network, before gaining access to the network, you may have to interact
+with a web page that asks you to agree to legal terms before granting access
+
+As endpoint profilerated across organizations, greater controls are nedded, Guest access, Bring Your Own Devices (BYODs) and the Internet of Things (IoTs)
+
+The 1st is that the devices  trying to connect to the network are personally owned devices, not assets of an organization.
+The company's MIS department does not control what runs on these devices, for example, antivirus software or unsafe applications.
+
+A second challenge is that IoT devices are hardware with sensors that transmit data, from one place to another over the internet, ramaticall expanding the attack surface!
+
+Organizations buyu IoT-enabled devices from other vendors, and these devices connect back to vendor networks to provide information about product use
+and maintenance needs
+
+Organizations tolerate this situation because IoT devices save them time and money
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7
+
+Current NAC Capabilities
+
+- Create Profiles of all connected devices, NAC then permits access to network resources based on the device profile.
+  If a device doesn't have a defined profile or a profile that matches a particular function
+- NAC can be integrated into the security framework, so that when a breach is detected, NAC automatically responds to notify the security operations center (SOC)
+  and coordinates with other security devices to neutralize the threat. It also generate reports and insights in attemped access across the organization.
+- NAC is important and helps an organization through the following:
+    - oversight of all devices in use across the organization
+    - cost savings
+    - automation
+    - enhanced IT experiences
+    - ease of control
+
+
