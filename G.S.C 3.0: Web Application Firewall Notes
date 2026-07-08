@@ -1,0 +1,52 @@
+A Web Application Firewall (WAF) is an appliance or software that monitors HTTP/HTTPS traffic and can block malicious traffic
+to and from web application, WAFs target content from specific web applications at the application level, while
+edge firewalls from secure gateways between the local area network (LAN) and outside servers at the network level
+
+By inspecting HTTP traffic, WAFs can stop attacks originating from web application security flaws such as:
+- SQL injection
+- Cross-site scripting
+- File inclusion
+- Security misconfigurations
+
+developed in the 90s, the WAFs ancestor was a largely network-based firewall, it can target File transfer protocol (FTP)
+Remote shell (RSH)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Traditional edge firewall
+
+- Decisions are based on a blocklist of network addresses
+- Certain protocols and port numbers are blocked
+- Web applications use HTTP and port 80 or por 443
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////77
+
+WAFs would study application behavior and use what they've learned to create a baseline, then, they would use that baseline
+to evaluate attempts to access applications and determine if those attempts were normal or irregular, and therefore suspect
+
+The next generation also introduced session monitoring and heuristics,  which enabled the firewall to detect varuants of known signatures
+
+However...
+
+- Could not keep up with rapid growth of new exploits
+- was not capable of defending against zero-day exploits
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7
+
+** MACHINE LEARNING **
+
+Unencumbred by human supervision, behaviour analysis could now be done at machine speed, and could adapt to the ever-changing attributes of threat.
+Other security feautres that were added to firewalls include the following:
+
+- Distributed denial of service (DDoS) defense
+- IP reputation
+- ANtivirus
+- Data loss prevention (DLP)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+WAFs could monitor HTTP traffic and stop any action that violated acceptable behavior they could identify a user,
+correlate the user's attempted actions with their permissions, and stop any action that went beyond the scope of their role.
+WAFs could also share information and collaborate with other security devices in the network, such as other firewalls and sandboxes.
+This ability allowed WAFs to be part of a collective defense
+
