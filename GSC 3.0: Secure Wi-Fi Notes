@@ -1,0 +1,58 @@
+IEEE 802.11 standards: A suite of Wi-Fi technology standards established by the institute of Electric and Electronic Engineers (IEEE),
+such as 802.11b, 802.11g, 802.11n, 802.11ac, and 802.11ax, which define the rules for wireless communications in local area networks.
+
+Wi-Fi is a wireless technology employed for the local area networking of devices.
+Its development drew from similar protocols and technology as Ethernet, encompassing IP at the network layer and TCP and UDP at the 
+transport layer. Common technologies include routers, switches, the domain name system (DNS), and, in most cases, wireless networks connect
+to wired networks.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+** Advantage and Disadvantage of a Wireless Network **
+
+There is one very large difference between wireless and wired networks, however. Data is not piped through twisted copper wire or fiber
+optic cable as in most wired networks; rather , data is sent trhough radio waves or microwaves. 
+This different transmission medium has advantages and disadvantages.
+
+The main disadvantage of wireless networks is security. Without following proper security protocols, bad actors can listen in to communication.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+** Wi-Fi Security Protocols **
+
+Wi-Fi skateholders introduced an encryption protocol known as wired equivalent privacy (WEP), which was succeeded by Wi-Fi protected access (WPA)
+versions one and two. WPA2 employs the advanced encryption standard (AES) for encrypting outdoing data, a standard established by
+the National Insitute of Standards and Technology (NIST) in the United States.
+
+- Wired equivalent privacy (WEP).
+- Wi-Fi protected access (WPA) v. 1 and 2
+- Advanced encryption standard (AES) algorithm.
+- Home security level > Shared passphrase.
+- Enterprise security level > IEEE802.1x authentication mechanisms and encryption.
+
+** WPA v. 3. **
+- A more secure handshake.
+- Easier to add devices.
+- Increased cryptographic key size.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+** Social Engineering Risks to Wi-Fi Networks **
+
+Bad actors can set up access pints to act as honeyspots in places like coffee shops.
+
+If you connect to these, hackers can follow your online activities
+
+For example, if you input your account credentials and credit card information, they can get it...
+
+THE EVIL TWIN ATTACK!!!
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+** Best Practices When Setting Up a Wi-Fi Network **
+
+- Remember to change the SSID name and default passphrase that came with the device.
+
+- Ensure that you chose a complex passphrase, and that security is enabled on the router so that data is encrypted when sent between devices.
+
+- Update to the latest , select the latest security protocol, such as WPA3, and use the latest security features.
