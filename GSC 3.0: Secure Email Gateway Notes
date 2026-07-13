@@ -1,0 +1,76 @@
+SEG areose in response to the rising phishing threat and email security in general.
+
+A technology solution designed to protect organizations from email-based threats and ensure the security and
+privacy of their email communications.
+
+It serves as a barrier between an organization's email infrastructure and the external email network 
+
+The first two features of SEG are content filtering and data loss prevention
+
+Content filters are used to control and manage the types of content that can be accessed or shared on a network.
+They are often used in web filtering, email filtering, and data loss prevention (DLP) to enforce content-related
+policies
+
+DLP strives to prevent the unauthorized or accidental leakage of sensitive and confidential information from an organiation
+
+COntent filters target a broader range of content
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Like content filters, spam filters aim to manage email and eliminate harmful content, but they serve different purposes
+and target different types of content.
+
+Spam filters aim to reduce the amount of spam that reaches a user's inbox, they focus on identifying emails based on characterístics
+commonly associated with spam, such as suspicious sender addresses, excessive use of certain keywords, known spam patterns
+and IP addresses with poor reputations.
+
+Spam filters are highly automated and use algorithms and heurístics to make decisions about whether an email is spam.
+
+They often maintain DBs of known spammers and patterns to enhance their accuracy.
+
+Common technologies used for spam filtering include:
+- Bayesian filters: A type of statistical filter, Bayesian filters are used in email and text classification to determine the
+  probability theory, which is a branch of statistics that deals with probabilities and uncertainty.
+
+- Deny lists: Also known as blocklists or blacklists, deny lists are lists of items or entities that are explicitly
+  prohibited or denied accessnto an specific system, network, service, or resource. Deny lists are commonly used in various
+  contexts, including cybersecurity, access control, and content filtering
+
+- Allow lists: Also known as whitelists, allow lists are lists of items, entities, or actions that are explicitly permitted
+or allowed access to on a specific system, network, service, or resource. Allow lists are commonly used in various contexts to enhance security and control access.
+
+- Machine learning algorithms: A subset of AI, machine learning algorithms enable computers to learn from and make predictions
+  or decisions based on data without being explicitly programmed to perform a specific task. These algorithms are
+  designed to recognize patterns, make inferences, and improve their performance over time as they process more data.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+SEG offers auth and identify verification.
+
+** It supports various methods to authenticate senders identifies and validate email sources to prevent email spoofing and impersonation.
+** Malware filtering is another feature of SEG.
+
+This type of filter scans email attachments and links for malware, preventing potentially
+harmful content from reaching the recipient's inbox, and SEG can encrypt email to protect the content from unauthorized
+access during transmission.
+
+Some systems can digitally sign emails, wich aids in identifying the sender and verifying the integrity of the content.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+** Sender Policy Framework **
+
+Verifies the sending server´s IP address
+
+Prevents email spoofing and sender address forgery
+
+DomainKeys Identified Mail (DKIM).
+
+Domain-based Message Authentication, Reporting, and Conrormance (DMARC).
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Secure email gateways continue to evolve as threats evolve.
+
+In some cases, a SEG is integrated with other network security devices, such as edge and segmentation firewalls
+and sandboxes.
