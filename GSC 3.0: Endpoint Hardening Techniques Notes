@@ -1,0 +1,112 @@
+Internet of Things (IoT) has increased the number of endpoints that need to be secured.
+
+There are many strategies and policies that one can use to secure traditional and newer network connected devices.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+** Hardening Endpoints **
+
+Many of these techniques are geared toward companies and enterprise networks, but you can also use them in your personal and home enviroments.
+Hardening endpoints can be broken down into several categories:
+
+- Using administrative controls to enforce secure passwords and restrict user and network access using the principle of least privilege (PoLP).
+
+- The second is hardening the local endpoint protection through a combination of operating system security, boot management, local disk encryption
+  and data loss prevention (DLP) techniques. 
+
+- Is appropriate endpoint maintenance to ensure all devices are patched and updated regularly, have regular policy checkups and have accurate,
+  maintained backups ofr easy recovery.
+
+- The fourth is the monitoring of endpoint devices, which can be done locally through an endpoint protection platform (EPP) client if
+  available, or over the networks the devices are connected to using specialized network intrusion detections systems (IDS). 
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+** Administrative Controls **
+
+The simplest way to harden and protect your endpoints and IoT devices is to ensure that the device has a secure password. This is especially important in household IoT devices, 
+which regularly ship with a default password that the user is not required to change on installation.
+
+Tracking down and enforcing secure passwords on all connected devices is a simple first step that can help reduce your overall risk.
+
+Another important step in securing endpoints is to ensure that users, especially administrators, have access to only the permissions they need to perform their duties.
+Many endpoints, even basic IoT devices, grant users the ability to create administrative roles and permission sets. 
+
+This allows the creation of authenticated roles that allow users and admins to access to only features they need on a device.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+For simpler endpoints that can´t restrict user or administrative access, consider locking down access with very secure passwords or
+restricting which IP addresses can access the device using another device, such as a router or firewall.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+** Local Endpoint Protection **
+
+Is the hardening of endpoint firmware and boot processes.
+Most security practices focus on securing devices.
+
+Threats have been emerging that attack the firmware and boot processes of endpoint devices.
+
+Physically securing devices so that attackers do not have physical access is extremely important. It is much easier to compromise a traditional computer system
+if you have physical access because many devices have an administrator account reset procedure that requires only physical access to the device.
+
+Locking down the basic input/output system (BIOS) and other boot-time systems can prevent these types pf attacks from being successful.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Firmware is the software that usually run from a chip on the endpoint.
+This software is responsible for detecting and reporting hardware connected to the device.
+After the firmware performs all the hardware checks, it assists in loading the operating system. Modern computers usually use either
+the legacy basic input output system (BIOS) or the newer unified extensible firmware interface (UEFI) Both perform similar functions,
+but UEFI is much newer and usually incorporates a graphical interface and more robust security features
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Local Endpoint Protection
+
+** Full disk encryption (FDE) **
+
+A software-based solution where the disk is encrypted by the Operating System
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Encryption, Disk Security, and DLP
+
+A final way to protect data on an endpoint is to use DLP software. 
+
+DLP
+
+This can detect if someone is trying to copy sensitive information from a device
+or send it over the network.
+
+Can block or log the transaction for security.
+
+Prevents or limits the use of attachable drives like USB flash drives or external hard drives.
+
+Can also be network based. 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+** Auto-Updates/Patching **
+
+It is extremely important for administrators to be able to update, patch, and back up all connected endpoints.
+
+Difficult to maintain reliable patching and backup schedules is realted to the sheer number of differents devices and procedures performing updates and backups
+
+Having a standarized desktop, laptop, server, and smart phone model and manufacturer for a company can greatly simplify the task of patch and update maintenance.
+
+This not always viable because of the need to support critical legacy quipement, and the rise of bring your own device, or BYOD, in work enviroments.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+** Backups **
+
+Assist in recovery from cyberattacks or accidents
+
+Many IoT devices do not have a backup capability
+
+- Having backup equipement that you can configure easily to replace damaged, stolen, or compromised devices should be part of a
+  comprehensive disaster recovery plan.
+
+- having a regular backup schedule is one of the most effective ways to mitigate a ransomware attack.
