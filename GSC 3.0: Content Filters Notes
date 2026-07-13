@@ -1,0 +1,33 @@
+Content Filtering: A process to screen or restrict access to objetionable emails, webpages, executables and other suspicious items.
+
+Blocks: Harmful, illegal, or inappropiate information
+
+Content filters are used in different ways to block access to different types of materials.
+
+The common types of content filters include search engine filters, email filters, DNS-base content filters, and web filters.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+TYPE OF CONTENT FILTERS
+
+- Search Engine Filters: rate web content according to its text and images
+
+- Email filters: It check the header of incoming mails against real-time blackhole lists. The raw data of the body is scanned for inappropiate content,
+  providing a spam confidence level that is similar to search engine weights. (it also checks attachments!!!)
+
+- DNS-Based Content Filters: They checks the website during the resolution of the domain through DNS servers using blocklists. If the website is not
+  allowed, the browser is redirected to a replacement message announcing that the page is blocked
+
+- Web Filters: Similar to DNS-based content filters, with an additional function that categorizes websites.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+BENEFITS OF CONTENT FILTERS
+
+Content filters allow organizations to block access to sites known to carry malware, protecting their data and users from malicious activity.
+
+Content filters also can identify phishing or an exploit kit, blocking the access before it triggers a malicious download.
+
+Limiting user's access to only specific work-related internet can increase the bandwidth efficency and enable faster connections for all employess.
+
+Organizations can use web filtering on web sites like social media and online shopping to increase staff productivity.
