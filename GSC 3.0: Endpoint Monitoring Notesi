@@ -1,0 +1,67 @@
+** Endpoint Monitoring **
+
++--  Endpoint Hardening --+
+
+Administrative Controls
+- Passwords
+- User restrinctions
+- Principle of Least Privilege (PoLP)
+
+Local Endpoint Protection
+- OS and Startup hardening
+- Disk security and encryption
+- Data Loss Prevention (DLP)
+
+Endpoint Maintenance 
+- Auto-updates/Patching
+- Policy checks
+- Backups
+
+Endpoint Monitoring
+- Endpoint Protection
+- Intrusion Detection Systems (IDS)
+- Endpoint Detenction and Response (EDR)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7
+
+Endpoint Protection
+
++-- Endpoint solutions --+
+
+Helps manage and protect various types of endpoints from cyberthreats + aditional plugins
+
+The first endpoint security solution is the endpoint protection platform, or EPP.
+This developed from the need of administrators to ensure servers and desktops are patched and have the appropriate antivirus
+software installed.
+
+Moderns EPPs can:
+
+- Verify versions of software and firmware
+- Scan the local system for viruses and malware
+- Enforce data loss prevention and other company-defined security policies
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7
+
+Another endpoint solution is nedpoint detection and response, or EDR. 
+This is a more proactive security solution that constantly scans a device to detect indicators of compromise, or IOC.
+If the EDR client detects a suspicious connection, program, or behaviour, it can block the action and send an alert.
+This can help identify and stop threats like ransomware and zero-day attacks that may not have an established signature
+that would be detected by traditional anti-malware systems.
+
+EDR usually leverages A.I and large comprehensive databases of known attacks to predict and recognize suspicious files and programs.
+ECR CAN TRIGGER ALERST TO OTHER CONNECTED ENDPOINTS and allow other endpoints to immediately block the suspicious behaviour.
+Has tools to help gather data on new threats, and quarantine systems that are suspected of compromise.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7
+
+EPP and EDR Solutions
+
+EPP and EDR:
+Security administrator have top-down visibility on the health of their endpoints.
+
+EDR solutions allow an immediate response by automating the process to either lock down services, or execute operations in response to a threat detected by other parts of the network.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7
+
+With hard-to-secure devices and unknown endpoints, you should enforce the priciple of least privilege. If these devices need access only to a
+specific internet or internal server, isolate them on a unique network and allow only that specific connection through firewalls ans routers.
