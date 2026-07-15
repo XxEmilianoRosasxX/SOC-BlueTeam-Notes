@@ -1,0 +1,51 @@
+** Security Information and Event Management (SIEM) **
+
+Introduced in 2005, SIEM analyzes security alerts in real time. Fundamentally, SIEMs do three things:
+
+- Collect, normalize, and store events and alerts from the organization's network and devices.
+
+- Collects information from physical devices as well as virtual devices, both on-premises and in the cloud.
+
+- Run advanced analytics on the data to identify potential security incidents.
+  Potential incidents are prioritized by:
+    - risk
+    - severity
+    - impact
+
+* Monitoring for user-behavioral
+* Watching for known indicators of compromise
+* Applying sophisticated machine learning models
+
++-- Reasons for SIEM --+
+
+- Enhanced Security
+- Investment
+- Regulatory Compliance
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+SIEM Compliance Examples
+
+- Payment Card Industry PCI standard
+- Sarbanes-Oxley Act
+- Health Insurance Portability and Accountability Act (HIPAA)
+- General Data Proteection Regulation (GDPR)
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Another issue that hindered the greater acceptance of SIEM by organizations was the effort involved to set up,
+integrate, and use it.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Complexity of SIEM
+
+- Insufficient number of qualified professionals
+- Increases complexity and causes a lack of network visibility
+
+**
+
+- Demand for sparse IT resources
+- Increased chance of human error
+- Reduced network security visibility
+- 
