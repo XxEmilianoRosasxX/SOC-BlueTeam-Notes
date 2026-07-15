@@ -1,0 +1,51 @@
+** Security Orchestration, Automation and Response (SOAR) **
+
+Is a hot term in the security industry, SOAR connects tools in your security stack together into defined workflows, in other words,
+SOAR lets you increase your team's efficency by automating repetitive manual processes.
+
+SOAR ties together the tools in your security stack.
+
+By pulling data in from these sources, SOAR reduces context switching that analysts deal with.
+
+Therefore, analysts can perform all their usual investigative processes directly from the source interface.
+
++- Investigation is another crucial SOAR capability. -+
+
+** SOAR Capabilities **
+
+- Check threat intelligence sources for a reputation.
+- Query a security information management system (SIM) for related events from within the SOAR platform.
+
+- Can delete phishing emails!
+
+Implementing SOAR into your ecosystem does more than just centralize your incident response processes, it optimizes an entire operation.
+
+Optimization results in streamlined responses at machine speed.
+
++ better manage the never-ending wave of alerts.
+
+SOAR allows users to assign alerts to different analyst or teams at different stages of response process
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+** Playbooks **
+
+Teams use playbooks, sometimes called workflows, to respond to alerts or incidents the same way every time.
+
+Playbooks work in unison with security teams by taking the steps an analyst would typically implement when responding to an incident.
+
++ Does repetitive tasks, such as compiling data into a report or sending emails.
++ Pauses when human oversight is needed (for example, implementing a firewall block).
++ Improves response speed and consistency while maintaining human authority.
+
+Phishing investigations are one of the most common use cases for SOAR implemented by customers.
+
+Without SOAR, an analyst will spend time investigating the sender of a phishing email and key indicators located within the email headers or body.
+
+With a phishing investigation playbook, the initial investigation steps are taken automatically, as soon as the phishing email is reported.
+
+This way, the analysts will be alerted to only those emails that the playbook determines are suspicious.
+After the analyst confirms that a reported email warrants firther action, the playbook can continue making additional SIM queries, deleting the email
+from all user inboxes, sending an email to all recipients alerting them of the action taken, and providing helpful tips on what to do if they
+receive similar phishing messages in the future.
+
