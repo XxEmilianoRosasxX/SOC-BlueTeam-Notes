@@ -1,0 +1,60 @@
+Before the cloud, organizations purchased their own computer systems ti run the application software
+needed to run the business.
+
+These were located in the org's facilities and managed by teams of experts.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////777
+
+** Virtualization **
+
+Lets a single server run the operating systems and applications from multiple servers simultaneously.
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+Infrastructure-as-a-Service (IaaS)
+
+Service Provides:
+- Networking
+- Storage
+- Physical servers
+- Virtualization
+
+Organization provides: 
+- OS
+- Middleware
+- Data
+- Applications
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+Platform as a Service (PaaS)
+
+Service Provides:
+- Networking
+- Storage
+- Physical servers
+- Virtualization
+- OS
+- Middleware
+
+Organization provides: 
+- Data
+- Applications
+
+** Easier, More efficent, Cheaper, Build, Test, Deploy **
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+Software as a Service (SaaS)
+
+Service Provides:
+- Networking
+- Storage
+- Physical servers
+- Virtualization
+- OS
+- Middleware
+- Data
+- Applications
+
+Usually connects using a web browser (like Netflix)
