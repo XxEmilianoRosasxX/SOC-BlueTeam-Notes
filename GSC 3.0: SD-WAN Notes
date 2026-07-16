@@ -1,0 +1,86 @@
+switch (WANs) to software-defined WAN (SD-WAN) architectures
+
+** SD-WAN (Software-defined wide-area network) is a technology that uses software-defined networking
+(SDN) principles to improve how wide-area networks (WANs) coonect across different locations.
+
+- It helps organizations link users, apps, and data securely, providing better performance and
+  making network management easier through centralized control.
+
+SD-WAN monitors the performance of WAN connections and regulates various types of traffic to ensure
+consistently high speeds and optimize overall connectivity.
+
+- It allows application-aware traffic routing and enables fine tuning such as reserving costly
+  high-speed links for business-critical applications.
+
++-- Unlike the traditional router-centric WAN structure, the SD-WAN model fully supports applications
+located in on-premises data centers, public or private clouds, and SaaS services like Salesforce, Dropbo,
+AWS and others.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+** Centralized Orchestration **
+
+SD-WAN centrally manages deployments, configurations, and operations. This allows network administrators to 
+generate and modify security rules in real time according to the evolving network demands. This reduces complexity
+and resources required by the organization to manage its networks.
+
+** Direct Cloud Access **
+
+SD_WAN eliminatesthe need ofr backhauling. It enables direct access to critical cloud services for all users, 
+regardless of their location. So, it eliminate the need to route branch office traffic through the data center
+regardless of the actual destination.
+
+** Better Application Performance **
+
+SD-WAN can be configured to prioritize business-critical traffic and real-time services like voice over internet
+protocol (VoIP) and steer it over the most efficent route.
+Having several options for moving traffic helps reduce packets loss from overloaded circuits and latency
+due to heavy traffic, improving performanceand user experience.
+
+** Increased Business Agility **
+
+Using SD-WAN, network planners can deploy updates to all networks simultaneously. This allows the organizations to respond to their
+changing business needs swiftly.
+
+** Cost Saving **
+
+SD-WAN allows traffic to be routed efficiently over multiple channels including MPLS circuits and the public internet
+over LTE and broadband. This reduces the need to increase the bandwidth on costly links, such as MLPS.
+
+** Improved Security **
+
+With the built-in security features, and the ability to restrict access to the network, organizations can protect themselves against internal and external threats
+more effectively.
+It is recommended to use SD-WAN solutions that provide a wide range of integrated security features, such as NGFW, 
+IPS, encryption, antivirus, and sandboxing capabilities that can help prevent data loss, downtime, regulatory violations, and legal liabilities.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Evolution of SD-WAN Technology
+
+** PHASE 1 | Need for Higher Bandwidth **
+
+Add multiple dedicated carrier links and load-balancing per application traffic.
+
+This solution significantly increased the complexity of network Infrastructure.
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+** PHASE 2 | Need for High Performance **
+
++ Reduced delays associated with MPLS installation
++ Unified control panel simplified the operational processes
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+** PHASE 3 | Need for a Unified Security Infrastructure **
+
++ Evolution of SD-WAN to a unified security infrastructure has reduced the operational cost and improved
+ease of network management.
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+SECURE SD-WAN
+
+Is the combination of a firewall and SSD-WAN functions in one device. This provides increased network
+security and simplified network administrator tasks.
