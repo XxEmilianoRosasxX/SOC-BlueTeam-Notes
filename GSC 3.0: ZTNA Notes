@@ -1,0 +1,26 @@
+Zero Trust Network Access (ZTNA)
+
+ZTNA establishes a secure session between an end entity and network, while ensuring granular
+control over access to resources and exercising zero trust, regardless of the location of 
+either the end entity or the network
+
+- Zero trust: Least privilege access
+- Automatic encrypted tunnels:
+    - End entity to the ZNTA access proxy
+    - Hidden resources
+- Components:
+    - ZTNA client (can be used with a web browser)
+    - ZTNA access proxy
+    - Authentication-on-premises directory server or identity-as-a-service (IDaaS)
+    - Security-ZTNA policy server and firewall
+- Dynamic access control
+    - Granular, per-session access : This means that each time the user connects to the network,
+      the user is authenticated and a risk assessment is completed on the connecting device
+    - Based on:
+      - User identity
+      - Device identity and risk profile: A device could be a computer or a handheld device
+      - Policy: Plocy can define access parameters to resources, based on user role, device type,
+        and other factors
+
+Unlike IPsec VPN, but similar to SSL VPN, ZTNA is vendor specific.
+This means that each vendor can implement ZTNA in a way that best suits their specific requirements.
