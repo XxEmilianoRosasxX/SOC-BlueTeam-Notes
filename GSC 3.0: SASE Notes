@@ -1,0 +1,20 @@
+SASE is delivered through the cloud as an as-a-service consumption model, to support secure
+access for today's distributed and hybrid enterprise networks.
+
+** BENEFITS OF USING SASE **
+
++-- Flexible and consistent security --+
+
+With security features such as zero trust network access (ZTNA) and data loss prevention (DLP), 
+SASE reduces the attack surface and the risk of lateral movement on the network.
+
++-- Reduced IT costs and complexity --+
+SASE combines multiple security solutions into a single cloud-based service, reducing the need for
+multiple vendors and streamlining integration efforts, saving time, money, and internal resources.
+
++-- Seamless user experience --+
+
+SASE reduces latency by securely routing traffic through a global edge network in which traffic is
+processed as close to the user as possible, improving the overall user experience.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
