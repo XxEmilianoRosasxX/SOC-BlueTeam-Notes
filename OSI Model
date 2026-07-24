@@ -1,0 +1,24 @@
+1- Application Layer
+2- Presentation Layer
+
+  Determines what data should be presented as, what is the format, etc.
+
+3- Session Layer
+
+  A session is stablished between the client and the server
+
+4- Transport Layer
+
+  We determine what protocol is being used to transfer the data that is either TCP or UDP protocol.
+
+5- Network Layer
+
+  We are going to have the IP address and all the networking.
+
+6- Data Link Layer
+
+  Establishes the connectionbetween two systems using the Mac address.
+
+7- Physical Layer
+
+  Converts this data into binary zero and ones. That is how the data travels.
