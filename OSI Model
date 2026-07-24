@@ -1,7 +1,11 @@
 1- Application Layer
+
+  This is where users and applications interact with the network. Think web browsers, email clients (HTTP, SMTP)
+
 2- Presentation Layer
 
   Determines what data should be presented as, what is the format, etc.
+  It's the translator. It formats or encrypts data so the application layer can read it (JSON, TLS).
 
 3- Session Layer
 
